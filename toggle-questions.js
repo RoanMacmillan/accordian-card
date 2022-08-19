@@ -6,11 +6,11 @@ const questions = document.querySelectorAll(".question");
 questions.forEach((question) => {
 
 
-    const button = question.querySelector(".question__button");
+    const arrowButton = question.querySelector(".question__button");
 
-    const questionText = question.querySelector(".question__title__text")
+    const questionText = question.querySelector(".question__title")
 
-    button.addEventListener("click", () => {
+    arrowButton.addEventListener("click", () => {
 
         questions.forEach((item) => {
 
